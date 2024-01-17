@@ -2,18 +2,18 @@ connector:
   name: harness_gitconnector
   identifier: harnessgitconnector
   description: ""
-  orgIdentifier: default
-  projectIdentifier: default_project
+  orgIdentifier: org_poc # default
+  projectIdentifier: sangjun # default_project
   type: Github
   spec:
-    url: https://github.com/GITHUB_USERNAME/
+    url: https://github.com/lucetre/
     validationRepo: harnesscd-example-apps
     authentication:
       type: Http
       spec:
         type: UsernameToken
         spec:
-          username: GITHUB_USERNAME
+          username: lucetre
           tokenRef: harness_gitpat
     apiAccess:
       type: Token
