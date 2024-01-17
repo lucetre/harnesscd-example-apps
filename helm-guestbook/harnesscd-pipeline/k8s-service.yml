@@ -1,8 +1,8 @@
 service:
   name: harnessguestbookdep
   identifier: harnessguestbookdep
-  orgIdentifier: default
-  projectIdentifier: default_project
+  orgIdentifier: org_poc # default
+  projectIdentifier: sangjun # default_project
   serviceDefinition:
     type: Kubernetes
     spec:
