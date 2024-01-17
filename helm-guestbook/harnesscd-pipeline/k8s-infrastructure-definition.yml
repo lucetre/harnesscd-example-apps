@@ -3,13 +3,13 @@ infrastructureDefinition:
   identifier: harnessk8sinfradep
   description: ""
   tags: {}
-  orgIdentifier: default
-  projectIdentifier: default_project
+  orgIdentifier: org_poc # default
+  projectIdentifier: sangjun # default_project
   environmentRef: harnessdevenvdep
   deploymentType: Kubernetes
   type: KubernetesDirect
   spec:
     connectorRef: harnessk8sconnector
-    namespace: default
+    namespace: sangjun # default
     releaseName: r<+INFRA_KEY>
   allowSimultaneousDeployments: false
