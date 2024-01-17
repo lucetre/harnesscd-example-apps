@@ -2,8 +2,8 @@ connector:
   name: harness_k8sconnector
   identifier: harnessk8sconnector
   description: ""
-  orgIdentifier: default
-  projectIdentifier: default_project
+  orgIdentifier: org-poc # default
+  projectIdentifier: sangjun # default_project
   type: K8sCluster
   spec:
     credential:
