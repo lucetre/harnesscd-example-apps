@@ -1,8 +1,8 @@
 pipeline:
   name: guestbook_k8s_rolling_pipeline
   identifier: guestbook_k8s_rolling_pipeline
-  projectIdentifier: org-poc # default_project
-  orgIdentifier: sangjun # default
+  projectIdentifier: sangjun # default_project
+  orgIdentifier: org_poc # default
   tags: {}
   stages:
     - stage:
